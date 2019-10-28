@@ -1,0 +1,32 @@
+.menu {
+    justify-content: center;
+    display: flex;
+    padding: 24px 0;
+    background-color: rgba(247, 247, 247, 1);
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+
+        li {
+            font-size: 23px;
+            padding: 10px 29px;
+            margin: 0 10px;
+            border-radius: 10px;
+            border: none;
+
+            &:nth-child(1) {
+                background-color: white;
+            }
+
+            &:hover {
+                background-color: #eeeeee;
+                transition: 0.5s ease;
+            }
+        }
+    }
+}

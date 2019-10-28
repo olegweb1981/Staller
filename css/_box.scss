@@ -1,0 +1,100 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 113px 115px 113px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+
+    h2 {
+        padding-bottom: 39px;
+    
+        &:before {
+            left: 74px;
+        }
+    }
+
+    h3 {
+        padding: 45px 0 68px 0;
+        font-size: 27px;
+        line-height: 46px;
+    }
+
+    .text {
+        text-align: justify;
+        column-gap: 44px;
+        columns: 2;
+        font-size: 23px;
+        line-height: 37px;
+        padding: 67px 0;
+    }
+
+    .statistic {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 211px;
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            color: white;
+
+            &:nth-child(1) {
+                background-color: #EBA7AF;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+            }
+            &:nth-child(2) {
+                background-color: #C598C7;
+            }
+            &:nth-child(3) {
+                background-color: #A898C7;
+            }
+            &:nth-child(4) {
+                background-color: #9EADE0;
+            }
+            &:nth-child(5) {
+                background-color: #92C4EF;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+
+            i {
+                font-size: 44px;
+                padding-bottom: 4px;
+            }
+        }
+    }
+
+    .figure {
+        font-size: 44px;
+    }
+
+    .desc {
+        font-size: 22px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .btn-primery {
+        background-color: #92C4EF;
+        color: white;
+
+        &:hover {
+            background-color: #9FCBF1;
+        }
+    }
+    .btn {
+        margin: 0 11px;
+    }
+}

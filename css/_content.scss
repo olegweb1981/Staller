@@ -1,0 +1,16 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    padding: 113px 113px 108px 113px;
+    border-bottom: 1px solid #dddddd;
+
+    h2 {
+        padding: 22px 0 37px 0;
+    }
+
+    p {
+        font-size: 23px;
+        line-height: 37px;
+        padding: 44px 60px 63px 0;
+    }
+}
