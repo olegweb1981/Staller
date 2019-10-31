@@ -1,0 +1,10 @@
+@media screen and (max-width: $sm-width) {
+
+    .gallery {
+        padding: 10px;
+    
+        img {
+            width: 256px;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+@media screen and (max-width: $lg-width) {
+
+    .wrap {
+        padding: 67px 64px 76px 64px;
+    
+        h2 {
+            padding-bottom: 29px;
+    
+            &:before {
+                left: 44px;
+            }
+        }
+    
+        .inner {
+            padding: 46px 0 45px 0;
+    
+            .icon {
+                width: 194px;
+                height: 194px;
+    
+                i {
+                    font-size: 78px;
+                    padding: 45px 33px;
+                }
+            }
+    
+            h3 {
+                padding-top: 35px;
+                font-size: 20px;
+                letter-spacing: -0.5px;
+            }
+    
+            p {
+                font-size: 16px;
+                padding: 16px 0;
+                line-height: 26px;
+            }
+        }
+    }
+}

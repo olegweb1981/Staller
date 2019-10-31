@@ -1,0 +1,58 @@
+@media screen and (max-width: $md-width) {
+
+    .footer {
+        padding: 67px 40px 0 40px;
+        flex-direction: column;
+    
+        h2 {
+            font-size: 23px;
+            padding-bottom: 22px;
+        }
+    
+        p, dt, dd {
+            font-size: 16px;
+            line-height: 26px;
+        }
+
+        .contacts, .lead {
+            width: 100%;
+        }
+
+        .lead {
+            padding-bottom: 63px;
+
+            p {
+                padding: 0 0 42px 0;
+            }
+        }
+    
+        .contacts {
+            padding: 0;
+    
+            dd {
+                padding-bottom: 13px;
+                margin-left: 88px;
+            }
+        }
+    
+        .social {
+            padding: 19px 0;
+            
+            i {
+                font-size: 20px;
+                width: 42px;
+                height: 42px;
+                margin-right: 14px;
+            }
+        }
+    }
+    
+    .copyring {
+        padding: 31px 0 107px 40px;
+        
+        p {
+            text-align: left;
+            padding-right: 0;
+        }
+    }
+}

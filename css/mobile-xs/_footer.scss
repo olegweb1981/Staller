@@ -1,0 +1,23 @@
+@media screen and (max-width: $xs-width) {
+
+    .footer {
+        padding: 41px 0px 0 0px;
+
+        .lead {
+
+            padding-bottom: 50px;
+        
+            p {
+                padding: 0 0 31px 0;
+            }
+
+            .btn-primery {
+                text-align: center;
+            }
+        }
+    }
+    
+    .copyring {
+        padding: 31px 0 92px 0px;
+    }
+}

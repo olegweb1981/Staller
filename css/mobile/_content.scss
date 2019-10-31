@@ -1,0 +1,32 @@
+@media screen and (max-width: $sm-width) {
+
+    .main {
+        h2 {
+            font-size: 24px;
+            letter-spacing: -0.6px;
+
+            &:before {
+                width: 80px;
+                left: 55px;
+            }
+        }
+    }
+
+    .content {
+        padding: 47px 23px 60px 24px;
+
+        .gallery {
+            display: flex;
+            align-items: center;
+            padding: 9px;
+
+            img {
+                width: 188px;
+            }
+        }
+
+        h2 {
+            padding: 31px 0 22px 0;
+        }
+    }
+}

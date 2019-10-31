@@ -1,0 +1,27 @@
+@media screen and (max-width: $xl-width) {
+
+    .main {
+        h2 {
+            font-size: 37px;
+            letter-spacing: -1px;
+
+            &:before {
+                width: 122px;
+            }
+        }
+    }
+
+    .content {
+        padding: 94px 94px 92px 94px;
+
+        h2 {
+            padding: 19px 0 32px 0;
+        }
+    
+        p {
+            font-size: 19px;
+            line-height: 30px;
+            padding: 36px 35px 51px 0;
+        }
+    }
+}

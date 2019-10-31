@@ -1,0 +1,22 @@
+@media screen and (max-width: $md-width) {
+    
+    .box {
+        padding: 67px 40px 64px 40px;
+    
+        h2 {
+            padding-bottom: 29px;
+        
+            &:before {
+                left: 53px;
+            }
+        }
+    
+        .statistic {
+            height: 158px;
+        }
+    
+        .figure {
+            font-size: 22px;
+        }
+    }
+}

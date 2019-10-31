@@ -1,0 +1,48 @@
+@media screen and (max-width: $xl-width) {
+
+    .box {
+        padding: 98px 94px 92px 94px;
+    
+        h2 {
+            padding-bottom: 32px;
+        
+            &:before {
+                left: 64px;
+            }
+        }
+    
+        h3 {
+            padding: 38px 0 56px 0;
+            font-size: 23px;
+            line-height: 38px;
+            letter-spacing: -0.6333px;
+        }
+    
+        .text {
+            column-gap: 36px;
+            font-size: 19px;
+            line-height: 30px;
+            padding: 56px 0;
+        }
+    
+        .statistic {
+            height: 184px;
+    
+            .item {
+    
+                i {
+                    font-size: 44px;
+                    padding-bottom: 4px;
+                }
+            }
+        }
+    
+        .figure {
+            font-size: 36px;
+        }
+    
+        .desc {
+            font-size: 19px;
+        }
+    }
+}

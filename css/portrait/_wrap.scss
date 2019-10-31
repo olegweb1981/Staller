@@ -1,0 +1,36 @@
+@media screen and (max-width: $md-width) {
+
+    .wrap {
+        padding: 67px 23px 76px 24px;
+
+        h2 {
+            padding-bottom: 29px;
+    
+            &:before {
+                left: 44px;
+            }
+        }
+    
+        .inner {
+            padding: 46px 0 13px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+    
+            .icons {
+                width: 50%;
+                padding-bottom: 32px;
+            }
+    
+            h3 {
+                padding-top: 35px;
+                font-size: 20px;
+                letter-spacing: -0.5px;
+            }
+    
+            p {
+                padding: 16px 15px;
+            }
+        }
+    }
+}

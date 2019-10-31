@@ -1,0 +1,14 @@
+@media screen and (max-width: $xs-width) {
+
+    .wrap {
+        padding: 50px 9px 48px 9px;
+    
+        .inner {
+            padding: 24px 0 0 0;
+
+            p {
+                padding: 16px 0 15px 0;
+            }
+        }
+    }
+}

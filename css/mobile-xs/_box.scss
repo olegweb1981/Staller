@@ -1,0 +1,35 @@
+@media screen and (max-width: $xs-width) {
+
+    .box {
+        padding: 50px 8px 49px 8px;
+    
+        h2:before {
+            left: 42px;
+        }
+
+        h3 {
+            padding: 26px 0 32px 0;
+        }
+    
+        .statistic {
+            height: 100%;
+
+            .item {
+                width: 84%;
+            }
+        }
+
+        .buttons {
+            flex-direction: column;
+            width: 100%;
+
+            .btn {
+                margin: 0;
+            }
+
+            .btn-primery {
+                margin: 0 0 17px 0;
+            }
+        }
+    }
+}

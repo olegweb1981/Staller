@@ -3,6 +3,7 @@
 @import 'reset';
 @import 'header';
 @import 'menu';
+@import 'button';
 @import 'content';
 @import 'gallery';
 @import 'wrap';
@@ -10,11 +11,50 @@
 @import 'footer';
 
 //desctop
+@import 'desctop/header';
+@import 'desctop/menu';
+@import 'desctop/content';
+@import 'desctop/gallery';
+@import 'desctop/button';
+@import 'desctop/wrap';
+@import 'desctop/box';
+@import 'desctop/footer';
 
 //tablet
+@import 'tablet/header';
+@import 'tablet/menu';
+@import 'tablet/content';
+@import 'tablet/gallery';
+@import 'tablet/button';
+@import 'tablet/wrap';
+@import 'tablet/box';
+@import 'tablet/footer';
 
-//portrait 
+//portrait
+@import 'portrait/header';
+@import 'portrait/menu';
+@import 'portrait/content';
+@import 'portrait/gallery';
+@import 'portrait/wrap';
+@import 'portrait/box';
+@import 'portrait/footer';
 
 //mobile
+@import 'mobile/header';
+@import 'mobile/menu';
+@import 'mobile/content';
+@import 'mobile/gallery';
+@import 'mobile/button';
+@import 'mobile/wrap';
+@import 'mobile/box';
+@import 'mobile/footer';
 
 //mobile-xs
+@import 'mobile-xs/header';
+@import 'mobile-xs/menu';
+@import 'mobile-xs/content';
+@import 'mobile-xs/gallery';
+@import 'mobile-xs/button';
+@import 'mobile-xs/wrap';
+@import 'mobile-xs/box';
+@import 'mobile-xs/footer';
